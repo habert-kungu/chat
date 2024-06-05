@@ -9,7 +9,7 @@ git clone https://github.com/habert-kungu/chat.git
 Go to cargo directory
 
 ```
-cd cargo
+cd chat
 ```
 
 Install the requirements
