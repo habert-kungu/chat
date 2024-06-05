@@ -1,27 +1,44 @@
-
 ## How to run Chat
 
 Clone the repository:
+
 ```
 git clone https://github.com/habert-kungu/chat.git
 ```
+
 Go to cargo directory
+
 ```
 cd cargo
 ```
+
 Install the requirements
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## How to run since it is being developed run it by 
+Install the tailwind configuration
+
+```bash
+npm install
+```
+
+run tailwind
+
+```bash
+npx tailwindcss   -i ./static/css/main.css -o ./static/css/main.css  --watch
+```
+
+## How to run since it is being developed run it by
+
 ```
 python manage.py runserver
 ```
+
 !! Make sure you have Django installed with you package manager
 
-Certainly! Below is the installation guide for Django 
-
+Certainly! Below is the installation guide for Django
 
 ### Installing Django on Different Operating Systems
 
@@ -36,14 +53,16 @@ Certainly! Below is the installation guide for Django
    pip install django
    ```
 
-####  2. macOS:
+#### 2. macOS:
 
 1. **Install Homebrew**: If Homebrew is not installed, you can install it by running the following command in Terminal:
+
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
 2. **Install Python**: Use Homebrew to install Python:
+
    ```bash
    brew install python
    ```
@@ -56,11 +75,13 @@ Certainly! Below is the installation guide for Django
 #### 3. Linux (Ubuntu/Debian):
 
 1. **Update Package Index**: Update the package index:
+
    ```bash
    sudo apt update
    ```
 
 2. **Install Python and pip**: Install Python and pip:
+
    ```bash
    sudo apt install python3 python3-pip
    ```
@@ -73,6 +94,7 @@ Certainly! Below is the installation guide for Django
 #### 4. Linux (Red Hat/CentOS):
 
 1. **Install Python and pip**: Install Python and pip:
+
    ```bash
    sudo yum install python3 python3-pip
    ```
@@ -85,14 +107,17 @@ Certainly! Below is the installation guide for Django
 #### 5. Any OS (Using Virtual Environment):
 
 1. **Install virtualenv** (if not already installed):
+
    ```bash
    pip install virtualenv
    ```
 
 2. **Create a Virtual Environment**:
+
    ```bash
    python -m venv myenv
    ```
+
    Replace `myenv` with your preferred name for the virtual environment.
 
 3. **Activate the Virtual Environment**:
@@ -105,14 +130,12 @@ Certainly! Below is the installation guide for Django
      source myenv/bin/activate
      ```
 4. **Use Anaconda Virtual Environment**
-    ```bash
-    conda activate name
-    ```
-   
+   ```bash
+   conda activate name
+   ```
 5. **Install Django**:
    ```bash
    pip install django
    ```
 
 These are general steps, and you might encounter specific issues or requirements depending on your system configuration. Always refer to the [official Django documentation](https://docs.djangoproject.com/en/stable/intro/install/) for the latest installation instructions and best practices.
-
