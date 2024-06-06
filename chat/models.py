@@ -16,3 +16,7 @@ class Message(models.Model):
 
     def __str__(self):
         return f"{self.sent_by}"
+
+
+class Room(models.Model):
+    pass
