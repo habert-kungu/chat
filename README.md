@@ -1,3 +1,5 @@
+# Welcome to jatte a simpleminimalistic chat app
+
 ## How to run Chat
 
 Clone the repository:
