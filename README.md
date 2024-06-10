@@ -1,4 +1,7 @@
-# Welcome to jatte a simpleminimalistic chat app
+
+# Welcome to jatte: a simple, minimalistic chat app
+
+![Jatte](https://github.com/habert-kungu/chat/blob/main/jatte.png)
 
 ## How to run Chat
 
