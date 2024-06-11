@@ -1,8 +1,17 @@
 
 # Welcome to jatte: a simple, minimalistic chat app
+Connect, chat, and create memories with Jatte. Dive into a seamless chat experience that keeps you engaged and connected with your friends and loved ones.
+## Screenshots 
+### User Site
 
-![Jatte](https://github.com/habert-kungu/chat/blob/main/jatte.png)
+![Jatte](https://github.com/habert-kungu/chat/blob/main/screenshots/front%20jatte.png)
 
+![Jatte](https://github.com/habert-kungu/chat/blob/main/screenshots/below%20jatte.png)
+
+### Admin site 
+![Jtte](https://github.com/habert-kungu/chat/blob/main/screenshots/admin%20jatte.png)
+
+## **Warning** Make sure you have Django and Node installed with you package manager 
 ## How to run Chat
 
 Clone the repository:
@@ -11,7 +20,7 @@ Clone the repository:
 git clone https://github.com/habert-kungu/chat.git
 ```
 
-Go to cargo directory
+Go to chat directory
 
 ```
 cd chat
@@ -21,6 +30,12 @@ Install the requirements
 
 ```bash
 pip install -r requirements.txt
+```
+
+Go to jatte/jatte_app  directory
+
+```
+cd jatte/jatte_app 
 ```
 
 Install the tailwind configuration
@@ -40,10 +55,72 @@ npx tailwindcss   -i ./static/css/main.css -o ./static/css/main.css  --watch
 ```
 python manage.py runserver
 ```
+## Installing Node.js on Your System
 
-!! Make sure you have Django installed with you package manager
+Node.js is a JavaScript runtime environment that allows you to run JavaScript code outside of a web browser. This guide will walk you through installing Node.js on your system.
 
-Certainly! Below is the installation guide for Django
+**Prerequisites:**
+
+* An internet connection
+* Administrator privileges (recommended)
+
+**Choose Your Operating System:**
+
+**Windows:**
+
+* Download the latest LTS (Long-Term Support) version of Node.js from the official website: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
+* Double-click the downloaded installer and follow the on-screen instructions.
+* **Recommended:** During installation, check the box to "Add Node.js to PATH". This will allow you to run Node.js commands from any directory in your command prompt.
+
+**macOS:**
+
+* Open a Terminal window (Applications > Utilities > Terminal).
+* Install Node.js and npm (Node Package Manager) using a package manager like Homebrew:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install node
+```
+
+* Alternatively, you can download an installer from the official website: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
+
+**Linux:**
+
+* The installation process varies depending on your Linux distribution. Here are some common methods:
+    * **Using a package manager:**
+        * Search for `nodejs` or `npm` in your distribution's package manager. 
+        * For example, on Ubuntu/Debian:
+        ```bash
+        sudo apt update
+        sudo apt install nodejs
+        ```
+    * **Using a version manager:**
+        * Consider using a version manager like `nvm` (Node Version Manager) to manage multiple Node.js versions on your system. You can find installation instructions for `nvm` here: [https://github.com/nvm-sh](https://github.com/nvm-sh)
+    * **From source:**
+        * Download the source code from the official website: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
+        * Follow the build instructions in the downloaded archive. (This method is not recommended for beginners.)
+
+**Verifying Installation:**
+
+* Open a terminal window (Windows Command Prompt, macOS Terminal, Linux Terminal).
+* Type the following commands and press Enter after each:
+
+```bash
+node -v   # This should print the installed Node.js version
+npm -v    # This should print the installed npm version
+```
+
+**Congratulations!** You have successfully installed Node.js on your system.
+
+**Additional Resources**
+
+* Node.js Official Website: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
+* npm Package Manager Documentation: [https://docs.npmjs.com/](https://docs.npmjs.com/)
+
+
+**Note:** This guide provides a basic overview of Node.js installation. Refer to the official documentation linked above for detailed information specific to your operating system and preferred installation method.
+
+## Below is the installation guide for Django
 
 ### Installing Django on Different Operating Systems
 
